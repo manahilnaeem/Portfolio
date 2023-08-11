@@ -1,0 +1,92 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+nav ul li a:hover {
+    color: rgb(139, 139, 155);
+    font-size: 1.3rem;
+}
+
+.left {
+    margin-left: 30px;
+}
+
+.leftsection {
+    padding: 20px 0;
+    font-size: 3.1rem;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: solid;
+    margin: 30px;
+}
+
+.one {
+    width: 120%;
+}
+
+body {
+    overflow-x: hidden;
+    /* Hide vertical scrollbar */
+}
+
+.two {
+    height: 40%;
+}
+
+.two {
+    padding: 100px;
+    background-color: black;
+    color: white;
+
+}
+
+footer {
+    font-size: 1rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    justify-content: left;
+    margin-left: 40px;
+    padding: 25px;
+}
+
+footer ul li {
+    margin-left: 20px;
+}
+
+button {
+    padding: 15px;
+    width: 15%;
+    font-size: 1.1rem;
+    font-family: 'Cambria, Cochin, Georgia, Times, Times New Roman, serif';
+    margin-left: 40px;
+}
+hr {
+    border: 0;
+    background: black;
+    height: 1.2px;
+    margin: 35px 84px;
+}
+.about{
+    font-family: 'Raleway', sans-serif;;
+    font-size: 1.5rem;
+}
+.left{
+    font-size: 1.5rem;
+}
